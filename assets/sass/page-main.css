@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Ysabeau+Office");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.navigation {
+  width: 100%;
+  height: auto;
+  margin: 50px 50px auto;
+}
+.navigation .links {
+  float: right;
+  width: 50%;
+}
+.navigation .links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+.navigation .links ul li {
+  font-family: "Ysabeau Office";
+}
+.navigation .links ul li a {
+  text-decoration: none;
+  color: #303030;
+}
+.navigation .links ul li a i {
+  margin: 10px 5px auto;
+  transition: 0.5s;
+  transform: rotate(0deg);
+}
+.navigation .links ul li a:hover {
+  color: #42a514;
+}
+.navigation .header h1 {
+  display: inline-block;
+  font-family: "Archivo Black";
+  color: #42a514;
+}
+
+.spectrum {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 150px auto;
+}
+.spectrum h1 {
+  text-align: center;
+  font-family: "Archivo Black";
+  color: #42a514;
+  margin: auto;
+}
+
+.panel {
+  width: 800px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  background-color: #303030;
+  display: block;
+  position: absolute;
+  border-radius: 50px;
+}
+.panel img {
+  width: 100%;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.management {
+  width: 800px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 200px auto;
+  background-color: #303030;
+  display: block;
+  position: absolute;
+  border-radius: 50px;
+}
+.management .infos ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px auto;
+}
+.management .infos ul li p {
+  font-family: "Ysabeau Office";
+  color: white;
+}
+.management .controllers ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto;
+}
+.management .controllers ul li label {
+  font-family: "Ysabeau Office";
+  color: white;
+}
+.management .controllers ul li input[type=text] {
+  border-radius: 5px;
+  color: white;
+  width: 80px;
+}
+
+input[type=text], textarea {
+  border: none;
+  outline: none;
+  background-color: #303030;
+  border-bottom: 2px solid #ffffff;
+}/*# sourceMappingURL=page-main.css.map */

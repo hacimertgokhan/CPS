@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy">
+    <link rel="stylesheet/less" href="assets/sass/page-main.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <script src="https://kit.fontawesome.com/55460c171b.js" crossorigin="anonymous"></script>
+    <title>Home - CPS</title>
+  </head>
+  <header>
+
+    <div class="navigation">
+
+        <span class="header">
+            <h1>Chemical Process Stand</h1>
+        </span>
+
+        <span class="links">
+            <ul>
+                <li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href=""><i class="fa-solid fa-atom"></i>Infos</a></li>
+                <li><a href=""><i class="fa-solid fa-gauge"></i>Spectrums</a></li>
+            </ul>
+        </span>
+
+
+    </div>
+
+  </header>
+  
+
+  <body>
+
+    <span class="spectrum">
+        <h1>Spectrum</h1>
+    </span>
+    <div class="panel">
+        <span id="spectrum"></span>
+    </div>
+
+    <div class="management">
+
+        <div class="controllers">
+            <ul>
+                <li>
+                    <label for="element-name">Element Name: </label>
+                    <input id="search" type="text">
+                </li>
+            </ul>
+        </div>
+        <div class="infos">
+            <ul>
+                <li><p>Mass: </p><span id="mass"></span></li>
+                <li><p>Boil: </p><span id="boil"></span></li>
+                <li><p>Category: </p><span id="category"></span></li>
+                <li><p>Discovered by: </p><span id="discovered"></span></li>
+                <li><p>Number: </p><span id="number"></span></li>
+            </ul>
+            <ul>
+                <li><p>Period: </p><span id="period"></span></li>
+                <li><p>Phase: </p><span id="phase"></span></li>
+                <li><p>Symbol: </p><span id="symbol"></span></li>
+                <li><p>Electron conf.: </p><span id="configuration"></span></li>
+                <li><p>Ionization energies: </p><span id="energies"></span></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./assets/javascript/elements.js"></script>
+  </body>
+</html>

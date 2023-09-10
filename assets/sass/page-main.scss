@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Ysabeau+Office');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+:root {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.navigation {
+    width: 100%;
+    height: auto;
+    margin: 50px 50px auto;
+    .links {
+        float: right;
+        width: 50%;
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px auto;
+            li {
+                font-family: "Ysabeau Office";
+                a {
+                    text-decoration: none;
+                    color: #303030;
+                    i {
+                        margin: 10px 5px auto;
+                        transition: .5s;
+                        transform: rotate(0deg); 
+
+                    }
+                }
+
+                a:hover {
+                    color: #42a514;
+                }
+            }
+        }
+    }
+    .header {
+        h1 {
+            display: inline-block;
+            font-family: "Archivo Black";
+            color: #42a514;
+        }
+    }
+}
+
+.spectrum {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 150px  auto;
+    h1 {
+        text-align: center;
+        font-family: "Archivo Black";
+        color: #42a514;
+        margin: auto;
+    }
+}
+.panel {
+    width: 800px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    background-color: #303030;
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    img {
+        width: 100%;
+        height: 100px;
+        border-radius: 50px;
+    }
+}
+
+.management {
+    width: 800px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 200px auto;
+    background-color: #303030;
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    .infos {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 60px auto;
+            li {
+                p {
+                    font-family: "Ysabeau Office";
+                    color: white;
+                }
+            }
+        }
+    }
+    .controllers {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 40px auto;
+            li {
+                label {
+                    font-family: "Ysabeau Office";
+                    color: white;
+                }
+                input[type="text"] {
+                    border-radius: 5px;
+                    color: white;
+                    width: 80px;
+                }
+            }
+        }
+    }
+}
+
+input[type="text"], textarea {
+    border: none;
+    outline: none;
+    background-color: #303030;
+    border-bottom: 2px solid #ffffff;
+  }
+
